@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>MyProject.Oops.keyWordt</StartupObject>
-  </PropertyGroup>
+	  <StartupObject>MyProject.Test_Loop_25Feb.NoPattern2</StartupObject>
+	</PropertyGroup>
 
 </Project>

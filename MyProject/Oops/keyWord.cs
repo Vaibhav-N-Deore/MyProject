@@ -19,7 +19,7 @@ namespace MyProject.Oops
             Console.WriteLine(num);
         }
     }
-    class KeyWord
+   /* class KeyWord
     {
         static void Main(string[] args)
         {
@@ -28,5 +28,5 @@ namespace MyProject.Oops
             u1.Display();
         }
 
-    }
+    }*/
 }
