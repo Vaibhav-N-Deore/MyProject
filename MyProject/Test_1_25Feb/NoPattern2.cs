@@ -17,6 +17,10 @@ namespace MyProject.Test_Loop_25Feb
               1*/
             for (int j = 5; j >= 1; j--)
             {
+                for(int k=5;k>=j; k--)
+                {
+                    Console.Write(" ");
+                }
                 for (int i = 1; i <= j; i++)
                 {
                     Console.Write(i);

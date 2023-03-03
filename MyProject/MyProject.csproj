@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>MyProject.Test_Loop_25Feb.NoPattern2</StartupObject>
+	  <StartupObject>MyProject.Loop.Pattern_Program.Sym_Pattern.Class1</StartupObject>
 	</PropertyGroup>
 
 </Project>
