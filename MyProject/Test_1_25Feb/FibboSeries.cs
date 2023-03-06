@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProject.Test_Loop_25Feb
 {
-    internal class Fibbo_Series //Q.13
+    internal class Fibbo_Series //Q.14
     {
         static void Main(string[] args)
         {
