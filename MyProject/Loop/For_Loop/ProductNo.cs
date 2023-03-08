@@ -18,7 +18,7 @@ namespace MyProject.Loop.For_loop
                 rem = num % 10;
                 product = product * rem;
             }
-            Console.WriteLine("product of given number is " + product);
+            Console.WriteLine("product of given number is =" + product);
             Console.Read();
         }
     }

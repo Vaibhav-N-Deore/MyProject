@@ -10,20 +10,20 @@ namespace MyProject.Loop.For_loop
     {
         static void Main(string[] args)
         {
-            int num, n, rev, r, sum = 0;
+            int num, rev, n, r, sum = 0;
 
             Console.Write("Input a number: ");
-            num = Convert.ToInt32(Console.ReadLine());
+            n = Convert.ToInt32(Console.ReadLine());
 
-            for (r = num; num != 0; num = num / 10)
+            for (rev = n; n != 0; n = n / 10)
             {
-                r = num % 10;
+                r = n % 10;
                 sum = sum * 10 + r;
             }
-            if (r == sum)
-                Console.Write("{0} is a palindrome number.\n", r);
+            if (rev == sum)
+                Console.Write("{0} is a palindrome number.\n", rev);
             else
-                Console.Write("{0} is not a palindrome number.\n", r);
+                Console.Write("{0} is not a palindrome number.\n", rev);
 
             //palindrome number between 100 to 500
             Console.WriteLine("Palindrome  No between 100 to 500 is ");
