@@ -16,19 +16,19 @@ namespace MyProject.Test_3_11March
 
         public Person(int theAge) : this(theAge, "", "")
         {
-            Age = theAge; //1 para
+            Age = theAge; 
         }
 
         public Person(int theAge, string theName) : this(theAge, theName, "")
         {
-            Age = theAge;  //2 para
+            Age = theAge;  
             Name = theName;
         }
 
         public Person(int theAge, string theName, string theEyesColour)
         {
 
-            Age = theAge;   //3 para
+            Age = theAge;   
             Name = theName;
             EyesColour = theEyesColour;
         }
