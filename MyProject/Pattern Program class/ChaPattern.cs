@@ -32,7 +32,7 @@ namespace MyProject.Pattern
         {
             for (char i = 'A'; i <= 'E'; i++)
             {
-                for (char j = 'A'; j <= 'E'; j++)
+                for (char j = 'A'; j <= i; j++)
                 {
                     Console.Write("i");
                 }

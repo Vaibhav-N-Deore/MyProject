@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProject.Loop.For_loop
 {
-    internal class TebleNo
+    internal class TableNo
     {
         static void Main(string[] args)
         {

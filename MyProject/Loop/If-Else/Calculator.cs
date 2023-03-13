@@ -15,10 +15,13 @@ namespace MyProject.Loop.If_Else
             float ans;
             Console.WriteLine("Enter 1st Number");
             Num1 = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter 2st Number");
             Num2 = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Select the operator to perform calculation + - * /");
             op = Convert.ToChar(Console.Read());
+
             if (op == '+')
             {
                 ans = Num1 + Num2;
