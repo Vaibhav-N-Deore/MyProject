@@ -58,6 +58,10 @@ namespace MyProject.Test_3_11March
         public DerivedClass() : base()
         {
         }
+       
+    }
+    class Detail
+    {
         static void Main()
         {
             DerivedClass md = new DerivedClass();
