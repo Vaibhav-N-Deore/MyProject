@@ -28,13 +28,13 @@ namespace MyProject.ArrayObject
     {
         static void Main(string[] args)
         {
-            Employee e = new Employee(1, "vaibhav",30000);
+            Employee e = new Employee(1, "vaibhav", 30000);
             Console.WriteLine(e);
 
-            Employee[] emp= new Employee[3];
-            emp[0] = new Employee(1, "vaibhav", 25000);
-            emp[1] = new Employee(1, "akash", 30000);
-            emp[2] = new Employee(1, "abhi", 35000);
+            Employee[] e= new Employee[3];
+            e[0] = new Employee(1, "vaibhav", 25000);
+            e[1] = new Employee(1, "akash", 30000);
+            e[2] = new Employee(1, "abhi", 35000);
 
             for (int i = 0; i < e.Length; i++)
             {
@@ -45,15 +45,17 @@ namespace MyProject.ArrayObject
                 Console.WriteLine("Enter the sal");
                 int sal = int.Parse(Console.ReadLine());
 
-                emp[i] = new Employee(eid, ename, sal);
+                *//* emp[i] = new Employee(eid, ename, sal);*//*
+                e[i] = new Employee(eid, ename, sal);
             }
 
             Console.WriteLine("-------------------");
-            foreach(Employee emp in emp)
+
+            foreach(Employee sal in e)
              {
-                if (emp.sal > 25000)
+                if (e. > 25000)
                 {
-                    Console.WriteLine(emp);
+                    Console.WriteLine(e);
                 }
                
              }

@@ -24,39 +24,52 @@ namespace MyProject.ArrayObject
             return id + " " + name + " " + per;
         }
     }
-    class ArrayObjectDemo
+    class ArrayDemo
     {
         static void Main(string[] args)
         {
-            Student s = new Student(1, "vaibhav", "85.70");
-            Console.WriteLine(s);
+            // Student s = new Student(1, "vaibhav", "85.70");
+            // Console.WriteLine(s);
 
-            Student[] stud= new Student[3];
-            stud[0] = new Student(1, "vaibhav", 70.00);
-            stud[1] = new Student(1, "akash", 60.30);
-            stud[2] = new Student(1, "abhi", 50.86);
+            Student[] s = new Student[3];
+            *//*  s[0] = new Student(1, "vaibhav", 70.00);
+              s[1] = new Student(1, "akash", 60.30);
+              s[2] = new Student(1, "abhi", 50.86);*//*
 
             for (int i = 0; i < s.Length; i++)
             {
                 Console.WriteLine("Enter the id");
                 int eid = int.Parse(Console.ReadLine());
                 Console.WriteLine("Enter the sname");
-                string sname =Console.ReadLine();
+                string sname = Console.ReadLine();
                 Console.WriteLine("Enter the per");
                 int per = int.Parse(Console.ReadLine());
 
-                stud[i] = new Student(eid, sname, per);
+                *//* s[i] = new Student(sid, sname, per);*//*
+                Console.WriteLine(s[i]);
             }
 
-            Console.WriteLine("-------------------");
-            foreach(Student stu in stud)
-             {
-                if (stud.per > 60.00)
+            Console.WriteLine("--------------------------");
+            foreach (Stud d in s)
+
+            {
+
+                int[] mk = d.marks; int sum = 0;
+
+                for (int i = 0; i < mk.Length; i++)
+
                 {
-                    Console.WriteLine(stud);
+                    sum = sum + mk[i];
                 }
-               
-             }
+                int per = sum / mk.Length;
+
+               // Console.WriteLine("per= " + per);
+
+                if (per > 60)
+                {
+                    Console.WriteLine(d + " per " + per);
+                }
+            }
         }
     }
 

@@ -1,5 +1,4 @@
-﻿using MyProject.Test_Loop_25Feb;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,37 +6,35 @@ using System.Threading.Tasks;
 
 namespace MyProject.Test_3_11March
 {
-    internal class Person //constructor chaining 
+    public class Person
     {
-        private int Age;
-        private string Name;
-        private string EyesColour;
+        protected string Tel = "123-45-6666";
+        protected string name = "Vaibhav Deore";
 
-
-        public Person(int theAge) : this(theAge, "", "")
+        public virtual void GetInfo()
         {
-            Age = theAge; 
+           Console.WriteLine("Tel: {0}", Tel);
+           Console.WriteLine("Name: {0}", name);
         }
-
-        public Person(int theAge, string theName) : this(theAge, theName, "")
-        {
-            Age = theAge;  
-            Name = theName;
-        }
-
-        public Person(int theAge, string theName, string theEyesColour)
-        {
-
-            Age = theAge;   
-            Name = theName;
-            EyesColour = theEyesColour;
-        }
-
     }
-    /*class Main(){
-        Person p = new Person();
-        Age.
-*/
+    class Employee : Person
+    {
+        public string id = "VND159357";
+        public override void GetInfo()
+        {
+            // Calling the base class GetInfo method:
+            base.GetInfo();
+            Console.WriteLine("Employee ID: {0}", id);
+        }
+    }
 
+    class TestClass
+    {
+        static void Main()
+        {
+            Employee E = new Employee();
+            E.GetInfo();
+        }
+    }
+    
 }
-
