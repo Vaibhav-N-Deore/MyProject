@@ -14,11 +14,12 @@ namespace MyProject.ArrayObject.TwoDArray
             Console.WriteLine("Array is " + array);
             int size = array.Length;
             Console.WriteLine(" ");
+
             for (int i = 0; i < array.Length; i++)
             {
                 for (int j = 0; j < array.Length; j++)
                 {
-                    /*Console.WriteLine(array[i][j] + " ");*/
+                    //Console.WriteLine(array[i][j] + " ");
 
                 }
             }

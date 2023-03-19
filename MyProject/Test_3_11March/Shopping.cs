@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static MyProject.Test_3_11March.BaseKeyword;
 
 namespace MyProject.Test_3_11March
 {
-    *//* internal class Shopping
-     {
-
+   class Shopping { 
             static string DoTransation(string a )
              {
                  Console.WriteLine("you got 15% discount : " + a);
@@ -28,7 +25,7 @@ namespace MyProject.Test_3_11March
                  Console.WriteLine("string: "+ v2);
              }
 
-     }*//*
+     }
 
 
     class Shopping

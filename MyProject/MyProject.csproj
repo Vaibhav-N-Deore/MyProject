@@ -5,7 +5,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>MyProject.ArrayObject.TwoDArray.MaxNoColum</StartupObject>
+	  <StartupObject>MyProject.Test_4_18March.Mini</StartupObject>
 	</PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AssignmentOnStatic\" />
+    <Folder Include="ArrayAssignment\" />
+  </ItemGroup>
 
 </Project>
