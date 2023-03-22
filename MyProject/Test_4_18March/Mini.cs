@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,38 +10,25 @@ namespace MyProject.Test_4_18March
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
+
+            char[] arr = new char[] { 'a', 'b', 'b', 'c', 'c', 'e', 'e', 'b' };
+            int n = arr.Length;
+            int count = 0;
+            for (int i = 0; i < n; i++)
             {
-                
-                char min;
-                char[] arr = new char[] { 'a', 'd', 'a', 'r', 'e' };
-
-                min = arr[0];
-
-                for (int i = 0; i < 0; i++)
+                for (int j = i + 1; j < n; j++)
                 {
-                    
-
-                        if (arr[i] < min)
-                        {
-                            min = arr[i];
-                        }
-
+                    if (arr[i] == arr[j])
+                    {
+                        count++;
+                    }
                 }
-
-                Console.Write("Array alpha\n");
-                for (int i = 0; i <0; i++)
-                {
-                  
-                        Console.Write(arr[i] + " ,");
-                  
-                    Console.WriteLine();
-                }
-                Console.WriteLine();
-
-                Console.WriteLine("Minimum  alpha:" + min);
-                Console.ReadLine();
+                Console.WriteLine("frequency of " + arr);
+                //Console.WriteLine(arr[i] + " " + count);
             }
+
+
         }
     }
 }
+*/

@@ -1,16 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyProject.Test_4_18March
+namespace MyProject.ClassWorkArray
 {
-    internal class Duplicate
+    internal class DuplicateEle
     {
         static void Main(string[] args)
         {
-            int[] arr1 = new int[] { 4, 5, 5, 7, 3, 9, 1 };
+            int[] arr1 = new int[] {4, 5, 5, 7, 3, 9, 1 };
             int[] arr2 = new int[] { 4, 7, 4, 6, 3, 1, };
             int[] mergedarray = new int[arr1.Length + arr2.Length];
             int k = 0;
@@ -24,7 +25,7 @@ namespace MyProject.Test_4_18March
                 {
                     if (arr1[i] == arr2[j])
                     {
-                        Duplicate = true;
+                        Duplicate = true; 
                         break;
                     }
                 }
@@ -32,7 +33,7 @@ namespace MyProject.Test_4_18March
                 if (Duplicate == false)
                 {
                     mergedarray[k++] = arr1[i];
-                }
+                }   
             }
 
             for (int i = 1; i <= k; k++)
@@ -41,8 +42,9 @@ namespace MyProject.Test_4_18March
             }
 
 
-            Console.WriteLine("murgedarray[i]+");
+            Console.WriteLine("murgedarray[i]+" );
             Console.Read();
         }
     }
+
 }

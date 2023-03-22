@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MyProject.Test_4_18March
 {
-    public class ArrayOuput  //unsolve
+    public class ArrayOuput  //predict..(unsolve)
     {
         public static void main(String[] args)
         {
             int a1[], a2;
-            a1 ={ 1,2,3};
+            a1 ={ 1,2,3 };
             a2 = new String[a1.length];
             for (int i = 0; i < a1.length; i++)
             {
@@ -23,8 +23,7 @@ namespace MyProject.Test_4_18March
                 Console.WriteLine(a2[i]);
             }
         }
+
     }
-
-
 }
 */

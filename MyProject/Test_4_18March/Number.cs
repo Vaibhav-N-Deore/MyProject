@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProject.Test_4_18March
 {
-    class Number   //unsolve   
+    class Number   //predict O/P ---> Bad Array declaration
     {
         public static void main(String args[])
         {
