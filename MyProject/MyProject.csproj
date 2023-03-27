@@ -5,11 +5,10 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>MyProject.ArrayAssignment.NegativeNo</StartupObject>
+	  <StartupObject>MyProject.Class1</StartupObject>
 	</PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="AssignmentOnStatic\" />
     <Folder Include="Array Project\" />
   </ItemGroup>
 

@@ -23,6 +23,7 @@ namespace MyProject.ArrayAssignment
             }
             foreach (var pair in dict)
                 Console.WriteLine("Value {0} occurred {1} times", pair.Key, pair.Value);
+
             Console.ReadKey();
         }
     }
