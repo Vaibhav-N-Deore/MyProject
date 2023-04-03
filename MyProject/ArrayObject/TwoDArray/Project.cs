@@ -1,53 +1,53 @@
-﻿using MyProject.Oops;
+﻿/*using MyProject.Oops;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static MyProject.ArrayObject.TwoDArray.Project;
+using static MyProject.ArrayObject.TwoDArray.School;
 
 namespace MyProject.ArrayObject.TwoDArray
 {
     internal class Project  //format
     {
-        class Book
+        class Account
         {
-            int book_id;
-            string book_name;
-            int price;
-            string authorname;
-            Book[] book;
+            string AccountName;
+            int AccountId;
+            string AccountType;
+            int AccountBalance;
+           public Account[] account;
 
-            public Book()
+            public Account()
+            {
+                account = new Account[100];
+                AccountId = 0;
+
+            }
+            public Account(int account_id, string authorname, String account_type, int accountbalance)
             {
 
             }
-            public Book(int book_id, String book_name, int price, string authorname)
+            public void CreaeAccount(Account a)
             {
-
-            }
-            public void CreatBook(Book[] b)
-            {
-                this.book = b;
-            }
-            public void CreaeBook(Book[] b)
-            {
-                this.book = b;
+                this.account = a;
             }
             public override string ToString()
             {
-                return book_id + " " + book_name + " " + price + " " + authorname;
+                return AccountId + " " + AccountName + " " + AccountType + " " + AccountBalance;
             }
-            public void ShowAllBooks()
+            public void ShowAllAccount()
             {
-                //display all records from book array
+                //display all records from account array
             }
-            public void ShowBookById(int id)
+            public void ShowAccountById(int id)
             {
-                foreach (Book bt in book)
+                foreach (Account bt in account)
                 {
                     if (bt != null)
                     {
-                        if (id == bt.book_id)
+                        if (id == bt.AccountId)
                         {
                             Console.WriteLine(bt);
                         }
@@ -55,36 +55,73 @@ namespace MyProject.ArrayObject.TwoDArray
                 }
 
             }
-            public void UpdateBook(int id)
+            public void UpdateAccount(int id)
             {
+
+                if (AccountId >= account.Length)
+                {
+                    Console.WriteLine("Error: maximum number of students reached");
+                    return;
+                }
+
+                account[AccountId] = id;
+                AccountId++;
 
             }
-            public void DeleteBook(int id)
+            public void DeleteAccount(int id)
             {
 
+                for (int i = 0; i < AccountId; i++)
+                {
+                    if (account[i].Id == id)
+                    {
+                        for (int j = i; j < AccountId - 1; j++)
+                        {
+                            AccountId[j] = AccountId[j + 1];
+                        }
+                        AccountId[AccountId - 1] = null;
+                        AccountId--;
+                        return;
+                    }
+                }
+
+                Console.WriteLine("Error: account with ID " + id + " not found");
+            }
+             for (int i = index; i<AccountId - 1; i++)
+            {
+                Account[i] = Account[i + 1];
+            }
+                 account[accountid - 1] = null;
+                 numStudents--;
+
+
+    }
+
+    public class Student
+            {
+                public int Id { get; set; }
+                public string Name { get; set; }
+                public int Type { get; set; }
+                public double Balance { get; set; }
             }
             class Project
             {
                 static void Main(string[] args)
                 {
-                    Book[] b = new Book[3]; 
+                    Account[] b = new Account[3]; 
 
                     //logic too create array
 
-                    Book bk = new Book(); 
-                    bk.CreaeBook(b); 
-                    bk.ShowAllBooks(); 
-                    bk.ShowBookById(100);
+                    Account bk = new Account(); 
+                    bk.CreatAccountId(b); 
+                    bk.ShowAllAccount(); 
+                    bk.ShowAccountById(100);
 
                 }
             }
-        }
     }
-                    
-
-                  
-
 }
+                    
 
                 
 
@@ -99,3 +136,4 @@ namespace MyProject.ArrayObject.TwoDArray
 
 
 
+*/

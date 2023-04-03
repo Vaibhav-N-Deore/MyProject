@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <StartupObject>MyProject.Class1</StartupObject>
+	  <StartupObject>MyProject.Test_6_01April.Test</StartupObject>
 	</PropertyGroup>
 
   <ItemGroup>

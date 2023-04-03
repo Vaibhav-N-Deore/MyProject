@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyProject.ArrayObject.TwoDArray
 {
-    class School
+    public class School
     {
         public Student[] students;
         private int numStudents;
@@ -132,4 +132,3 @@ namespace MyProject.ArrayObject.TwoDArray
 } 
 
 
-*/

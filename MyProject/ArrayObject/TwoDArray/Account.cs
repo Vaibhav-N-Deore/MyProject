@@ -41,12 +41,7 @@ namespace MyProject.ArrayObject.TwoDArray
 
         }
 
-       /* public void creat()
-        {
-            Console.WriteLine("Enter ");           
-
-
-        }*/
+      
         public void withdraw()
         {
             Console.WriteLine("Enter Withdraw Amount");
@@ -82,29 +77,6 @@ namespace MyProject.ArrayObject.TwoDArray
    }
 }
 
-    /*void SetAccountId(int acid)
-    {
-        AccountId = acid;
-    }
-    int GetAccountId()
-    {
-        return AccountId;
-    }
-    void SetAccountName(string acname)
-    {
-        AccountName = acname;
-    }
-    string GetAccountName()
-    {
-        return AccountName;
-    }
-    void SetAccountType(string actype)
-    {
-        AccountName = actype;
-    }
-    string GetAccountType()
-    {
-        return AccountName;
-    }*/
+   
 
 
